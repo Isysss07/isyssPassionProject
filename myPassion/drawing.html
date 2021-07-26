@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <title> How Drawing Impacted My Life</title>
     </head>
     <body>
@@ -12,8 +13,8 @@
         <p> I inspire myslef to keep drawing. I want to get better. I love watching myself grow and become better. Drawing is a great way to show my growth. I'm proud of how far I've come.  </p>
         
         <h2> My Art </h2>
-        <img src="https://media.discordapp.net/attachments/840540030430478336/866693688746704896/image0.jpg?width=541&height=406">
-        <img src=https://media.discordapp.net/attachments/840540030430478336/866695058001887232/image0.jpg?width=541&height=406>
+        <img src="https://media.discordapp.net/attachments/840540030430478336/866693688746704896/image0.jpg?width=541&height=406" width=100%>
+        <img src=https://media.discordapp.net/attachments/840540030430478336/866695058001887232/image0.jpg?width=541&height=406 width=100%>
         <img src=https://media.discordapp.net/attachments/840540030430478336/866695811697082388/image0.jpg?width=541&height=406 width=100%>
         <h2> Favorite artists ad their works</h2>
         <table>
@@ -30,8 +31,46 @@
                 <td> Steven Universe</td>
             </tr>
         </table>
+        First name:
+<input type="text" name="firstname"> <br>
+Last name:
+     <input type="text" name="lastname">
+     <table>
+         <tr>
+             <th> </th>
+         </tr>
+         <tr>
+<td><input type="radio" name="gender" value="male"> Male<br></td>
+</tr>
+</table>
+<input type="radio" name="gender" value="Female"> Female<br>
+<input type="radio" name="gender" value=" Nonbinary/Other"> Nonbinary/Other<br>
+<input type="submit" value="Submit">
+</form>
+
+<p> Favorite color </p>
+<form action="/examples/html5/demo_datalist.php" method="post">
+    <input type="text" list ="colors" name="What type of art do you do?">
+    <datalist id="colors">
+        <option value=" Traditional drawing">
+        <option value="Digital drawing">
+        <option value=" Painting">
+        <option value="Sculpting">
+        <option value="photography">
+        <option value="Other">
+
+
+
+    </datalist>
+    <input type="submit" value="submit">
+
+</form>
         <h2> Ways To Get Started</h2>
-        <a href="https://conceptartempire.com/drawing-ideas/">120+ Drawing Ideas</a>
-        <a></a>
+        <ul>
+        <li><a href="https://conceptartempire.com/drawing-ideas/">120+ Drawing Ideas</a></li>
+        <li><a href="http://reference.sketchdaily.net/"> References</a></li>
+        <li><a href="https://www.creativebloq.com/illustration/sketching-tips-beginners-81516497">How to improve you skills</a></li>
+        </ul>
+        
     </body>
 </html>
